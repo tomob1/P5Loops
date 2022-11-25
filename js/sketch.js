@@ -1,6 +1,12 @@
 function setup() {
     var canvas = createCanvas(800, 800);
     canvas.parent("p5container");
+
+    for(var i = 0; i < 10; i++){
+        console.log('I want ice cream')
+
+    }
+
 }
 
 function draw() {
