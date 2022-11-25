@@ -14,8 +14,12 @@ function draw() {
 
     stroke(255);
 
-    for (var lineX = 75; lineX <= 225; lineX += 75) {
-        line(lineX, 0, lineX, height);
+    // for (var lineX = 75; lineX <= width; lineX += 75) {
+    //     line(lineX, 0, lineX, height);
+    // }
+
+    for(var x = 0; x <=80; x++){
+        circle(x * 10, height/2, 10)
     }
 
 }
